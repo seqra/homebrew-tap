@@ -3,7 +3,7 @@ cask "seqra" do
   name "seqra"
   desc "Security-focused static analyzer for Java and Kotlin web applications"
   homepage "https://github.com/seqra/seqra"
-  version "2.5.0"
+  version "2.5.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "seqra" do
   on_macos do
     on_intel do
       url "https://github.com/seqra/seqra/releases/download/v#{version}/seqra-full_darwin_amd64.tar.gz"
-      sha256 "364fc8dd51e5049de2f99b115479de6e5376bfb49a52991c1dd50776831fdf3f"
+      sha256 "bfaa4464a39b2c56bda0dfd39c363f1bbcbcf7c71cacafdfdd6590a89bd8aff1"
     end
     on_arm do
       url "https://github.com/seqra/seqra/releases/download/v#{version}/seqra-full_darwin_arm64.tar.gz"
-      sha256 "dd1aaf7daac2711e1e6842daf93ce41008c6c3afc24cadff3b55fb702d5bd202"
+      sha256 "3ee5af29ac33ac3f65b2ca022079de359255054d88302699b65b18cde844d1cb"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/seqra/seqra/releases/download/v#{version}/seqra-full_linux_amd64.tar.gz"
-      sha256 "04a3ec668fac9ed381e99a166dfa5234da0a5c0908b8b8565a2f9d2bb3008bd7"
+      sha256 "9b0154a3bcccf33eb713520136ec3d8621c85782e30061f67c91692d4b76bf13"
     end
     on_arm do
       url "https://github.com/seqra/seqra/releases/download/v#{version}/seqra-full_linux_arm64.tar.gz"
-      sha256 "349d1e341f8f45af54f67d0745ba52b3b953cf142cb4b292b632d0103431efb7"
+      sha256 "e848d444a5a1cac44c9108356bc87567729deeedb6a98efc992004b289e915e2"
     end
   end
 
