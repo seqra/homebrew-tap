@@ -14,22 +14,22 @@ cask "opentaint" do
   on_macos do
     on_intel do
       url "https://github.com/seqra/opentaint/releases/download/v#{version}/opentaint-full_darwin_amd64.tar.gz"
-      sha256 "6ab4c7db883dc4464fd289abc4471eeae3ed41270b9aa535cf2db9bebb679673"
+      sha256 "d6c72ff686cb28690ce31b2df90ce63a6a7d0cacc9f46c5c8c83d21cee206d94"
     end
     on_arm do
       url "https://github.com/seqra/opentaint/releases/download/v#{version}/opentaint-full_darwin_arm64.tar.gz"
-      sha256 "3ccc249d5987caf289aff6981585520080cc15033d62c49e44064b94a638a670"
+      sha256 "0c18f2bab6cf9f75f9cffbf7281e3ce044436ffd5cc3bc3d3799580520ce9d2d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/seqra/opentaint/releases/download/v#{version}/opentaint-full_linux_amd64.tar.gz"
-      sha256 "179b8b05f1846d4b7d7866740686cbe91f7073942387418983aa325ab2659ca1"
+      sha256 "9fefa67160ed3542d2385fc2f02b86eddd795553c8114b4bd05bba5247f7d519"
     end
     on_arm do
       url "https://github.com/seqra/opentaint/releases/download/v#{version}/opentaint-full_linux_arm64.tar.gz"
-      sha256 "4cc15501aff82ef7d06a222325a25d93cfd722afcd948f8523be0eace0e4826b"
+      sha256 "84a45e7c64e1a88ffd750ca7773822e632b8d206226231aa1e57938ccc2b578f"
     end
   end
 
